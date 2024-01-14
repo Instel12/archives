@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    cursor: url('assets/cusor.png'), default;
+    color: white;
+}
+a{
+    cursor: url('assets/fingy.png'), default;
+}
+.cur{
+    /* nothing */
+}
