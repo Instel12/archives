@@ -1,0 +1,18 @@
+<html>
+    <title>YDA</title>
+    <script>
+        for(var i=0; i<10; i++) {
+            window.open("parrent.html",
+                    "", "width=300, height=300");        }
+        const randomColor = "#"+((1<<24)*Math.random()|0).toString(16); 
+
+        document.documentElement.style.setProperty('--main-bg-color', randomColor);
+    </script>
+    <style>
+        body{
+            font-size: 40vw;
+            background-color: var(--main-bg-color);
+        }
+    </style>
+    YDA
+</html>
